@@ -4,4 +4,4 @@ Using GitHub Actions, we create a daily updated dump of the SQL table created by
 
 For more information about how to use the table, have a look at the example queries in [`Queries.md` in the `main` branch](https://github.com/DFKI/RKI-Data-Diff/blob/main/Queries.md).
 
-The dump `rki_csv.sql.gz` is daily updated at 7:10am UTC via [GitHub Actions](https://github.com/DFKI/RKI-Data-Diff/blob/main/.github/workflows/update.yml). The commit message contains the number of rows that have been identified as corrections and additions.
+The dump `rki_csv.sql.gz` is daily updated at 3:10am UTC via [GitHub Actions](https://github.com/DFKI/RKI-Data-Diff/blob/main/.github/workflows/update.yml). The commit message contains the number of rows that have been identified as corrections and additions.
